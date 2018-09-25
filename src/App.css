@@ -35,12 +35,19 @@
   width: 75vw;
 }
 
+.project-list {
+  display: flex;
+  /* flex-flow: row wrap; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .project-title {
   font-size: 24px;
 }
 
 .project-image {
-  width: 50vw;
+  width: 20vw;
 }
 
 .nav-left {
@@ -54,4 +61,13 @@
 .flex {
   display: flex;
   justify-content: space-around;
+}
+
+.resume {
+  height: 100vh;
+}
+
+iframe {
+  border: none;
+  overflow: hidden;
 }
