@@ -42,3 +42,16 @@
 .project-image {
   width: 50vw;
 }
+
+.nav-left {
+  width: 33vw;
+}
+
+.nav-right {
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
