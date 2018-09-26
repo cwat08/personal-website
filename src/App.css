@@ -44,10 +44,12 @@
 
 .project-title {
   font-size: 24px;
+  color: black;
 }
 
 .project-image {
-  width: 20vw;
+  width: 30vw;
+  height: 30vh;
 }
 
 .nav-left {
@@ -70,4 +72,55 @@
 iframe {
   border: none;
   overflow: hidden;
+}
+
+.project-images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+}
+
+.single-project {
+  padding: 50px;
+  color: black;
+}
+
+.project-description {
+  color: black;
+}
+
+.project-technologies {
+  color: black;
+  font-size: 10pt;
+}
+
+.contact {
+  display: flex;
+  color: turquoise;
+  justify-content: center;
+}
+
+.contact-link {
+  padding: 20px;
+  color: turquoise;
+}
+
+.about {
+  font-size: 30px;
+  width: 60vw;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  text-align: left;
+}
+
+.nav-item {
+  font-size: 14pt;
+  color: turquoise;
+}
+
+.headshot {
+  margin-left: 125px;
 }

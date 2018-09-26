@@ -4,18 +4,27 @@ import SingleProject from './SingleProject'
 const projects = [
   {
     title: 'Burst',
-    description: 'Bipartisan web app to burst your filter bubble',
-    image: './Mad_giphs_image.png'
+    description:
+      'A bipartisan app that helps users burst their political filter bubble',
+    technologies:
+      'React-Redux, Node.js, Express, PostgreSQL, OpenTok, News API, Passport',
+    image: './burst.jpg',
+    url: 'https://burst-acs.herokuapp.com/'
   },
   {
     title: 'MAD GIPHS',
-    description: 'find cool GIFs!',
-    image: './Mad_giphs_image.png'
+    description: 'A web game to find the perfect GIF',
+    technologies: 'React, Node.js, Web-Speech API, GIPHY Search API',
+    image: './mad-giphs.jpg',
+    url: 'https://mad-giphs.herokuapp.com/'
   },
   {
     title: 'Codebrary',
-    description: 'a site to buy coding books',
-    image: './Mad_giphs_image.png'
+    description: 'An e-commerce website that sells coding books',
+    technologies:
+      'Node.js, Express, React, Redux, PostgreSQL, Stripe API, Mocha, Chai',
+    image: './codebrary.jpg',
+    url: 'https://codebrary.herokuapp.com/'
   }
 ]
 
