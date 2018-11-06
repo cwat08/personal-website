@@ -5,7 +5,7 @@ const Resume = () => (
     <p>
       <iframe
         // className="resume"
-        src="https://docs.google.com/document/d/e/2PACX-1vQQmuYhVYgC7Sgid3O-QTttPipF-UtX7NMqQtH3pZGxyMR5Bh8WTyqCQtayjJYpOWL1drPLywWhS_Wq/pub?embedded=true"
+        src="https://docs.google.com/document/d/e/2PACX-1vRAglJoNMgMBh57DayS7bW0lU-XtDAjgHqdXSa9QaZPlE9pKqsF6QqGZtWAD6g1p4f91Eb5ATPFzxAt/pub?embedded=true"
         width="800"
         height="1500"
         scrolling="no"
