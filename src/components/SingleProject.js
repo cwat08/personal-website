@@ -8,7 +8,7 @@ const SingleProject = props => {
     <div
       className={colored === true ? 'single-project colored' : 'single-project'}
     >
-      <a href={props.project.url}>
+      <a href={props.project.url} target="_blank">
         <div>
           <h1 className="project-title">{props.project.title}</h1>
           <img className="project-image" src={props.project.image} />{' '}

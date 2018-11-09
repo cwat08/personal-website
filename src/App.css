@@ -75,9 +75,10 @@
   color: #00cec9;
 }
 
-/* a:hover {
+h1:hover {
   color: #00cec9;
-} */
+}
+
 .nav-left {
   width: 33vw;
   justify-self: left;
@@ -215,11 +216,13 @@ a {
 
 .technology {
   margin: 0 5px 0 5px;
-  padding: 3px;
-  border: 1px #0a01af solid;
+  padding: 5px;
+  border: 1px #22a6b3 solid;
   border-radius: 5px;
   font-size: 0.7em;
-  color: #0a01af;
+  color: #22a6b3;
+  font-weight: bold;
+  /* background-color: #22a6b3; */
 }
 
 .colored {
