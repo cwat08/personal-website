@@ -1,39 +1,34 @@
 import React from 'react'
+import Contact from './Contact'
 
 const About = () => {
   return (
+    // <div className="about-page">
     <div className="about">
       <div>
         <img className="headshot" src="./headshot_final.png" align="left" />
         <br />
       </div>
-      <div className="about-text">
-        <p>Hello! </p>
-        <p>
-          I'm Claire, an events producer turned software engineer, passionate
-          about solving complex problems through creating elegant and
-          well-designed software.{' '}
-        </p>
-        <p>
-          After studying neuroscience and film, I spent time producing live
-          events in the entertainment and media industries. After a while, I
-          found I wanted to work on something more tangible and happened to try
-          a coding course on Codeacademy, and was instantly hooked! I love
-          building scalable and well-designed apps that are efficient under the
-          hood, while also delivering seamless user experiences.
-        </p>
-      </div>
-
-      <div className="contact">
-        <a href="mailto:watson.e.claire@gmail.com">
-          <h3 className="contact-link">EMAIL</h3>
-        </a>
-        <a href="https://www.linkedin.com/in/claire-e-watson/">
-          <h3 className="contact-link">LINKEDIN</h3>
-        </a>
-        <a href="https://github.com/cwat08">
-          <h3 className="contact-link">GITHUB</h3>
-        </a>
+      <div id="all-about-text">
+        <div className="about-text">
+          <h2>Hi I'm Claire, </h2>
+          <p>
+            An events producer turned software engineer, passionate about
+            solving complex problems through creating elegant and well-designed
+            software.{' '}
+          </p>
+          <p>
+            After studying neuroscience and film, I spent time producing live
+            events in the entertainment and media industries. After a while, I
+            found I wanted to work on something more tangible and happened to
+            try a coding course on Codeacademy, and was instantly hooked! I love
+            building scalable and well-designed apps that are efficient under
+            the hood, while also delivering seamless user experiences.
+          </p>
+        </div>
+        <div id="about-contact">
+          <Contact />
+        </div>
       </div>
     </div>
   )

@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Lato', sans-serif;
 }
 
@@ -41,7 +41,9 @@
 
 .project-title {
   font-size: 24px;
-  color: black;
+  color: #595959;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .project-image {
@@ -60,9 +62,10 @@
 }
 
 .nav-item {
-  font-size: 10pt;
+  font-size: 9pt;
   color: #595959;
   margin: 0 10px 0 10px;
+  letter-spacing: 0.1em;
 }
 
 .nav-left {
@@ -85,6 +88,19 @@
   display: flex;
   justify-content: space-around;
 } */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
 
 .resume {
   height: 100vh;
@@ -110,45 +126,72 @@ a {
 
 .single-project {
   padding: 50px;
-  color: black;
+  color: #595959;
 }
 
 .project-description {
-  color: black;
+  color: #595959;
 }
 
 .project-technologies {
-  color: black;
+  color: #595959;
   font-size: 10pt;
 }
 
 .contact {
   display: flex;
   justify-content: center;
+  margin-left: 20px;
+  /* position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 60px; */
+  /* align-items: center; */
+  /* position: fixed;
+  bottom: 10px; */
 }
 
 .contact-link {
   padding: 20px;
   color: #595959;
+  font-size: 9pt;
+  letter-spacing: 0.1em;
 }
 
-.about-text {
-  font-size: 20px;
-  width: 60vw;
-  margin-left: 15vw;
-  margin-top: 15px;
+.all-about-text {
+  display: flex;
+  flex-direction: row;
   text-align: left;
 }
 
+#about-contact {
+  position: relative;
+  left: 0px;
+  top: 5px;
+  text-align: left;
+}
+.about-text {
+  font-size: 1em;
+  width: 60vw;
+  margin-left: 50px;
+  margin-top: 80px;
+  text-align: left;
+  line-height: 1.5em;
+}
+/*
+.about-text .about-contact {
+  justify-content: flex-start;
+} */
+
 .about {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .headshot {
-  margin-left: 135px;
-  margin-top: 25px;
-  height: 250px;
+  margin-left: 80px;
+  margin-top: 120px;
+  height: 200px;
 }
 
 .technology-list {
@@ -231,4 +274,17 @@ hr {
 .fancy span:after {
   left: 100%;
   margin-left: 15px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+}
+
+.copyright {
+  font-family: 'Lato', sans serif;
+  font-size: 9pt;
+  letter-spacing: 0.1em;
+  margin-right: 25px;
+  /* margin-top: 10px; */
 }

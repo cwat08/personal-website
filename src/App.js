@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Resume from './components/Resume'
 import ProjectList from './components/ProjectList'
 import Routes from './routes'
+import Contact from './components/Contact'
 
 class App extends Component {
   render() {
@@ -18,7 +19,10 @@ class App extends Component {
           <Routes />
         </div>
         <footer className="footer">
-          <p className="text-center">&copy; 2018 CW</p>
+          <Contact />
+          <div className="copyright">
+            <h4 className="copyright">&copy; 2018 CW</h4>
+          </div>
         </footer>
       </div>
     )

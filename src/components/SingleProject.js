@@ -20,7 +20,6 @@ const SingleProject = props => {
           return <div className="technology">{technology}</div>
         })}
       </div>
-      {/* <p className="project-technologies">{props.project.technologies}</p> */}
     </div>
   )
 }
