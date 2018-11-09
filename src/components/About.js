@@ -1,15 +1,16 @@
 import React from 'react'
 import Contact from './Contact'
+import Player from './ReactPlayerTest'
 
 const About = () => {
   return (
     // <div className="about-page">
-    <div className="about container">
-      <div>
+    <div className="about">
+      <div className="headshot-container">
         <img className="headshot" src="./headshot_final.png" align="left" />
         <br />
       </div>
-      <div id="all-about-text container">
+      <div id="all-about-text">
         <div className="about-text">
           <h2>Hi I'm Claire, </h2>
           <p>
