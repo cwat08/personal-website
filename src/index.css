@@ -2,5 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #f2f5f9;
+  /* background-color: #f2f5f9; */
+  background-color: #dfe6e9;
+  position: relative;
+  min-height: 100%;
+  min-height: 100vh;
 }

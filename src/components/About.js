@@ -4,12 +4,12 @@ import Contact from './Contact'
 const About = () => {
   return (
     // <div className="about-page">
-    <div className="about">
+    <div className="about container">
       <div>
         <img className="headshot" src="./headshot_final.png" align="left" />
         <br />
       </div>
-      <div id="all-about-text">
+      <div id="all-about-text container">
         <div className="about-text">
           <h2>Hi I'm Claire, </h2>
           <p>
@@ -26,9 +26,9 @@ const About = () => {
             the hood, while also delivering seamless user experiences.
           </p>
         </div>
-        <div id="about-contact">
-          <Contact />
-        </div>
+        {/* <div id="about-contact"> */}
+        <Contact />
+        {/* </div> */}
       </div>
     </div>
   )

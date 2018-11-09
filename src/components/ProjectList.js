@@ -44,7 +44,8 @@ const projects = [
 
 const ProjectList = props => {
   return (
-    <div className="project-list">
+    <div className="project-list container">
+      <span className="fancy" />
       {projects.map((project, i) => {
         return <SingleProject project={project} index={i} />
       })}

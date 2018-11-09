@@ -15,10 +15,10 @@ class App extends Component {
         {/* <header className="App-header">
           <h1 className="App-title">Claire's Site</h1>
         </header> */}
-        <div>
+        <div className="container">
           <Routes />
         </div>
-        <footer className="footer">
+        <footer>
           <Contact />
           <div className="copyright">
             <h4 className="copyright">&copy; 2018 CW</h4>
