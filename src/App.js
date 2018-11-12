@@ -20,7 +20,7 @@ class App extends Component {
         </div>
         <footer>
           <Contact />
-          <div className="copyright">
+          <div>
             <h4 className="copyright">&copy; 2018 CW</h4>
           </div>
         </footer>

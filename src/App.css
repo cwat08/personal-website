@@ -396,7 +396,8 @@ h2 {
     font-size: 0.8em;
   }
   .nav-item,
-  .contact-link {
+  .contact-link,
+  .copyright {
     font-size: 7pt;
   }
 
